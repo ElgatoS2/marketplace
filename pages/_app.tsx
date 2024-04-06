@@ -4,7 +4,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import "../styles/globals.css";
-import CustomChain from "./chain.tsx"
+import CustomChain from "./pages/chain.tsx"
 // This is the chain your dApp will work on.
 const activeChain = "CustomChain";
 
