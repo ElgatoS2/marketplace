@@ -12,7 +12,7 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { marketplaceContractAddress } from "../addresses";
 import styles from "../styles/Home.module.css";
-import CustomChain from "./chain.tsx"
+import Bitrock from "./chain.tsx"
 
 const Create: NextPage = () => {
   // Next JS Router hook to redirect to other pages
@@ -28,7 +28,7 @@ const Create: NextPage = () => {
     try {
       // Ensure user is on the correct network
       if (networkMismatch) {
-        switchNetwork && switchNetwork(ChainId.CustomChain);
+        switchNetwork && switchNetwork(ChainId.Bitrock);
         return;
       }
 
