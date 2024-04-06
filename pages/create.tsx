@@ -12,7 +12,7 @@ import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { marketplaceContractAddress } from "../addresses";
 import styles from "../styles/Home.module.css";
-import Bitrock from "./chain.tsx"
+import { Bitrock, ChainId } from "./chain.tsx"
 
 const Create: NextPage = () => {
   // Next JS Router hook to redirect to other pages
