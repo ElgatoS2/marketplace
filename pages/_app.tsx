@@ -6,7 +6,7 @@ import ThirdwebGuideFooter from "../components/ThirdwebGuideFooter";
 import "../styles/globals.css";
 import CustomChain from "./pages/chain.tsx"
 // This is the chain your dApp will work on.
-const activeChain = "CustomChain";
+const activeChain = "Bitrock";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
